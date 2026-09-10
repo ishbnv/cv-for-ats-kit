@@ -191,7 +191,7 @@ SODA (авг. 2022 — окт. 2023)
 
 Инструменты и практики (без привязки к конкретной работе, подтверждены)
 - Тестирование: Playwright, Cypress, Vitest, Jest, Supertest, React Testing Library, Storybook (stories для React-компонентов).
-- Облако: AWS и Yandex Cloud в проде (конкретные сервисы не зафиксированы — не перечислять).
+- Облако: AWS (EC2, поднятие и конфигурирование серверов, S3, networking, деплой) и Yandex Cloud в проде.
 - API/архитектура: OpenAPI/Swagger, BFF (backend for frontend), REST, GraphQL, WebSocket, микросервисы, event-driven (Kafka, BullMQ), DDD, системный дизайн.
 - Безопасность: OWASP Top 10 как практика: валидация входных данных, авторизация, rate limits, секреты и токены — шифрование at rest (в open-source: AES-256-GCM), антифрод-правила.
 - AI: Anthropic API, OpenAI API, OpenRouter; MCP-серверы; Claude Code — единственный AI-инструмент для кода (Cursor/Windsurf/Codex — не заявлять, если пользователь не скажет иначе).
@@ -242,8 +242,8 @@ SODA (авг. 2022 — окт. 2023)
   RU «AI Engineering»: интеграция LLM (Anthropic API, OpenAI API, OpenRouter), AI-агенты, агентные воркфлоу, MCP (Model Context Protocol) — собственные серверы, промпт-инжиниринг, каскады и роутинг моделей, оптимизация стоимости и задержки, оценка качества LLM, AI-чат-боты, Claude Code, AI-код-ревью
 - frontend — EN «Frontend»: React, Next.js, Redux Toolkit, Ant Design, Feature-Sliced Design, Vite, Webpack, Core Web Vitals, Lighthouse
   RU «Фронтенд»: React, Next.js, Redux Toolkit, Ant Design, Feature-Sliced Design, Vite, Webpack, Core Web Vitals, Lighthouse
-- infra — EN «Data & Infrastructure»: PostgreSQL, Redis, Apache Kafka, BullMQ, Docker, Kubernetes, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana
-  RU «Данные и инфраструктура»: PostgreSQL, Redis, Apache Kafka, BullMQ, Docker, Kubernetes, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana
+- infra — EN «Data & Infrastructure»: PostgreSQL, Redis, Apache Kafka, BullMQ, Docker, Kubernetes, AWS, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana
+  RU «Данные и инфраструктура»: PostgreSQL, Redis, Apache Kafka, BullMQ, Docker, Kubernetes, AWS, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana
 - process — EN «Testing & Process»: Playwright (E2E), Vitest, Jest, Supertest, code review, Agile/Scrum, technical documentation, mentoring
   RU «Тестирование и процессы»: Playwright (E2E), Vitest, Jest, Supertest, код-ревью, Agile/Scrum, техническая документация, менторинг
 - leadership — EN «Leadership»: technical design and API contracts, delivery planning for a 3-engineer team, code review, mentoring, hands-on team training (AI agents, MCP)

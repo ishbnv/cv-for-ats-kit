@@ -91,7 +91,7 @@
     ],
     [
       "Данные и инфраструктура",
-      "PostgreSQL, Redis, Apache Kafka, BullMQ, Docker, Kubernetes, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana"
+      "PostgreSQL, Redis, Apache Kafka, BullMQ, Docker, Kubernetes, AWS, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana"
     ],
     [
       "Тестирование и процессы",
