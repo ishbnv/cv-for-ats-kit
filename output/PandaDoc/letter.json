@@ -1,0 +1,23 @@
+{
+  "name": "IVAN SHABANOV",
+  "line1": "ivan@ishbnv.dev · +374 77 719 518 · linkedin.com/in/ishbnv · github.com/ishbnv · ishbnv.dev",
+  "line2": "Yerevan, Armenia (GMT+4) · Remote · B2B contract or EOR · Full overlap with EU hours",
+  "date": "10 September 2026",
+  "to": [
+    "PandaDoc — Hiring Team",
+    "Re: Senior Design Engineer, Embedded Agreements"
+  ],
+  "paragraphs": [
+    "Dear Hiring Team,",
+    "I am applying for the Senior Design Engineer role on the Embedded Agreements team. I spend my days building at the junction of React interfaces, developer tooling, and AI assistants, with the last two years focused on making MCP and coding agents practical for an entire product team.",
+    "At Alfa-Dengi, our core challenge was making complex backend event flows usable for people who do not write code. I designed and shipped a visual status-driven campaign builder in React, translating complicated state machines and frequency caps into an intuitive drag-and-drop canvas. Marketers quickly began running automated campaigns on their own without filing engineering tickets, generating about $80K a month. Alongside customer-facing surfaces, I rebuilt our internal developer experience around AI. I authored our project rules for Claude Code, built custom MCP servers that expose database schemas and internal documentation to agents, and introduced an agentic pre-review stage before pull requests reach human engineers. That dropped the time to deliver a verified CRUD module from roughly two hours to about forty minutes. Designing for MCP means understanding both sides of the interface: how language models reason about tool contracts, and how human developers verify the outcome.",
+    "Earlier at SODA, I built an internal React integration hub connecting our system to external partner CRMs, handling API contracts and data mapping across distributed endpoints. On the AI side, after running a three-month controlled test that tripled monthly channel revenue from about $47K to about $141K, I prototyped a confidence-based model cascade that cut API costs tenfold without degrading output quality.",
+    "My everyday stack is TypeScript and React, alongside Figma, Cursor, Claude Code, custom MCP servers, Node.js, and modern CSS. I care deeply about accessibility, interaction ergonomics, and keeping component libraries fast under real load.",
+    "I work remotely from Yerevan, GMT+4, which provides full overlap with European working hours, and I am set up for B2B contract or EOR engagement.",
+    "As you open your API and MCP tools to non-developers, where do you find users hitting friction first: discovering what tool calls are possible, or inspecting and trusting the generated payload?"
+  ],
+  "closing": [
+    "Kind regards,",
+    "Ivan Shabanov"
+  ]
+}

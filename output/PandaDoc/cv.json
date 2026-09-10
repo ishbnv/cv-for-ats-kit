@@ -1,0 +1,104 @@
+{
+  "lang": "en",
+  "name": "Ivan Shabanov",
+  "title": "Senior Design Engineer, Embedded Agreements",
+  "tail": "React / TypeScript · MCP, AI Agents & Claude Code · Design Systems & DX",
+  "location": "Yerevan, Armenia (GMT+4) · Remote · B2B contract or EOR · Full overlap with EU hours",
+  "contacts": [
+    {
+      "label": "ivan@ishbnv.dev",
+      "href": "mailto:ivan@ishbnv.dev"
+    },
+    {
+      "label": "+374 77 719 518",
+      "href": "tel:+37477719518"
+    },
+    {
+      "label": "linkedin.com/in/ishbnv",
+      "href": "https://www.linkedin.com/in/ishbnv"
+    },
+    {
+      "label": "github.com/ishbnv",
+      "href": "https://github.com/ishbnv"
+    },
+    {
+      "label": "ishbnv.dev",
+      "href": "https://ishbnv.dev"
+    }
+  ],
+  "summary": "Senior Design Engineer with 4+ years shipping production React/TypeScript interfaces and developer tooling, and 3 years building AI-native workflows: custom MCP servers over schemas and internal APIs, project rules for Claude Code, and visual workflow builders. Bridges product design and engineering end to end: prototypes from Figma concepts to production-grade React components in days with deep attention to layout, accessibility, Core Web Vitals, and developer experience. Led a 3-engineer team to launch a profitable credit-report product in week one (+40% net profit) and automated push campaigns generating ~$80K/month.",
+  "jobs": [
+    {
+      "company": "Alfa-Dengi",
+      "engagement": "via GIDFINANCE",
+      "role": "Senior Full-Stack Engineer · Tech Lead",
+      "dates": "Sep 2024 – Present · 2 yrs · Remote",
+      "blurb": "Consumer-lending marketplace with 9K+ new leads a day. Cross-functional product team; contract engagement via GIDFINANCE.",
+      "bullets": [
+        "Made AI coding agents a team-level capability: wrote the **project rules for Claude Code** (architecture conventions, style, security guardrails), built **custom MCP servers** exposing the database schema, task tracker, and documentation to agents, added an agentic pre-review stage ahead of human review, and trained the team; a typical CRUD module with tests now takes **~40 min instead of ~2 h**.",
+        "Enabled non-technical marketers to launch automated multi-step campaigns **with zero engineering involvement** (**~$80K/month** generated) by designing and shipping a visual drag-and-drop campaign canvas on React and NestJS with normalized state, live validation, and per-status frequency caps.",
+        "Launched a credit-report product that **turned profitable in its first week** (net profit **+40%**, EPC doubled from **~$1.9 to ~$3.8**) by leading a 3-engineer team through technical design, user flows, API contracts, the NBKI credit-bureau API integration, and a Node.js backend over a **6M-row** scoring dataset.",
+        "**Eliminated notification loss** under peak load by moving notification delivery and domain-event processing to **Apache Kafka**; application status updates reach the UI in real time over **WebSocket** on top of those events.",
+        "Cut load time of a 100K-row lead-scoring table (9K+ new leads/day) from **8 s to under 1 s** by reworking the data-access path: server-side pagination, PostgreSQL query and index optimisation, and client-side list virtualization."
+      ]
+    },
+    {
+      "company": "Appbooster",
+      "engagement": "",
+      "role": "Full-Stack Engineer (contract)",
+      "dates": "Nov 2023 – Aug 2024 · 10 mos · Remote",
+      "blurb": "Mobile-app marketing platform: ~100 employees, 10,000+ apps promoted for clients in 26 countries.",
+      "bullets": [
+        "Grew the task-and-rewards product to **1,000 daily active users in 3 months** by owning the full cycle: React user dashboard for paid tasks and proof submission, chatbot re-engagement notifications, and a live verification queue for admins.",
+        "Made **100% of payouts auditable** and screened out duplicate and faked proofs by modelling the full task lifecycle from pick-up to payout behind a moderation queue with anti-fraud rules, processing **hundreds of completions a day**."
+      ]
+    },
+    {
+      "company": "SODA",
+      "engagement": "",
+      "role": "Full-Stack Engineer",
+      "dates": "Aug 2022 – Oct 2023 · 1 yr 3 mos · Remote",
+      "blurb": "Lead-generation agency for residential developers and law firms (~60 employees). Owned the client-server side: APIs, database, interfaces.",
+      "bullets": [
+        "Built an internal **React integration hub** linking the agency's CRM with external partner CRM systems, managing API contracts, data mappings, and bidirectional synchronization across distributed endpoints.",
+        "**Tripled monthly channel revenue from ~$47K to ~$141K** and cut lead response time from ~8 min to **under 30 s** by leading an AI lead-processing assistant; a 3-month controlled comparison (humans / humans + AI / AI only) moved the channel fully to AI.",
+        "**Cut LLM API costs 10×** on own initiative by prototyping, measuring, and shipping a model cascade: a fast, cheap model handles routine leads and escalates to a stronger model only on low confidence.",
+        "Lifted conversion **~1.5×** on SPA sites receiving paid ad traffic by raising Lighthouse Performance from **58 to 87** through Core Web Vitals optimisation, asset loading, and layout stability."
+      ]
+    }
+  ],
+  "oss": {
+    "text": "**vk-ai-bot-platform** (MIT) — multi-tenant AI chatbot platform: OpenRouter LLM API, per-community prompt versioning, token-aware context windows, multi-step re-engagement workflows on BullMQ, event deduplication, admin analytics. TypeScript, Fastify, Drizzle ORM, PostgreSQL, Redis, React, Docker Compose, GitHub Actions.",
+    "href": "https://github.com/ishbnv/vk-ai-bot-platform"
+  },
+  "skills": [
+    [
+      "Design Engineering & DX",
+      "Figma to code, design systems, UI components, interaction design, developer experience (DX), API and integrations design, documentation UX, visual workflow builders, accessibility (a11y), Core Web Vitals, Lighthouse"
+    ],
+    [
+      "AI & Agentic Workflows",
+      "Claude Code (project rules, reusable skills, agentic pre-review), Cursor, MCP (Model Context Protocol) custom servers, AI agents, agentic workflows, LLM integration (Anthropic API, OpenAI API, OpenRouter), model cascading and routing, prompt engineering"
+    ],
+    [
+      "Frontend",
+      "React, TypeScript, Next.js, Redux Toolkit, Ant Design, Feature-Sliced Design, Vite, Webpack, modern CSS, WebSocket and real-time UI"
+    ],
+    [
+      "Backend & APIs",
+      "Node.js, NestJS, Express, Fastify, REST APIs, GraphQL, WebSocket, Prisma ORM, Drizzle ORM, microservices, Apache Kafka, BullMQ, system design"
+    ],
+    [
+      "Data & Infrastructure",
+      "PostgreSQL, Redis, Docker, Kubernetes, AWS, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana"
+    ],
+    [
+      "Testing & Process",
+      "Playwright (E2E), Vitest, Jest, Supertest, code review, Agile/Scrum, technical documentation, mentoring and team training"
+    ]
+  ],
+  "education": [
+    "Southern Federal University — Applied Informatics, 2022–2024",
+    "English — professional working proficiency (daily in a distributed team) · Russian — native"
+  ]
+}
