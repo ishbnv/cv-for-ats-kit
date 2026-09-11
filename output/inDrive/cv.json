@@ -1,0 +1,99 @@
+{
+  "lang": "en",
+  "name": "Ivan Shabanov",
+  "title": "Infrastructure Engineer",
+  "tail": "Kubernetes · AWS · Linux & Docker · CI/CD & Observability",
+  "location": "Yerevan, Armenia (GMT+4) · Remote · B2B contract or EOR · Full overlap with EU hours",
+  "contacts": [
+    {
+      "label": "ivan@ishbnv.dev",
+      "href": "mailto:ivan@ishbnv.dev"
+    },
+    {
+      "label": "+374 77 719 518",
+      "href": "tel:+37477719518"
+    },
+    {
+      "label": "linkedin.com/in/ishbnv",
+      "href": "https://www.linkedin.com/in/ishbnv"
+    },
+    {
+      "label": "github.com/ishbnv",
+      "href": "https://github.com/ishbnv"
+    },
+    {
+      "label": "ishbnv.dev",
+      "href": "https://ishbnv.dev"
+    }
+  ],
+  "summary": "Infrastructure and Platform-focused Senior Engineer with 4+ years building and operating resilient, high-availability systems across Linux, Docker, and Kubernetes. Designed GitLab CI/CD pipelines deploying to self-managed Kubernetes clusters, configured OpenTelemetry distributed tracing and Grafana alerting, and managed AWS cloud infrastructure. Eliminated message loss under peak load by introducing Apache Kafka and scaled services over 6M-row datasets with deep focus on reliability, fault tolerance, and developer tooling automation.",
+  "jobs": [
+    {
+      "company": "Alfa-Dengi",
+      "engagement": "via GIDFINANCE",
+      "role": "Senior Full-Stack Engineer · Tech Lead",
+      "dates": "Sep 2024 – Present · 2 yrs · Remote",
+      "blurb": "Consumer-lending platform with 9K+ new leads a day. Cross-functional product team; contract engagement via GIDFINANCE.",
+      "bullets": [
+        "Designed and built the delivery and observability stack the engineering team ships on: **GitLab CI/CD into a 5-node self-managed Kubernetes cluster**, **OpenTelemetry** distributed tracing, and **Grafana** alerting.",
+        "**Eliminated notification loss** under peak traffic bursts by migrating notification delivery and domain-event processing to **Apache Kafka**, ensuring fault-tolerant, replayable event streaming.",
+        "Cut query execution time on a 100K-row lead-scoring dataset (9K+ new leads/day) from **8 s to under 1 s** through deep database profiling, server-side pagination, and PostgreSQL query and index optimization.",
+        "Automated delivery and DX across the team: authored **project rules for Claude Code** (architecture conventions, guardrails) and built **custom MCP servers** exposing database schemas and documentation, cutting CRUD module delivery from **~2 h to ~40 min**.",
+        "Led a 3-engineer team to launch a credit-report product that **turned profitable in week one** (net profit **+40%**, EPC doubled from **~$1.9 to ~$3.8**) by owning technical design, system architecture, and Node.js backend over a **6M-row** dataset."
+      ]
+    },
+    {
+      "company": "Appbooster",
+      "engagement": "",
+      "role": "Full-Stack Engineer (contract)",
+      "dates": "Nov 2023 – Aug 2024 · 10 mos · Remote",
+      "blurb": "Mobile-app marketing platform: ~100 employees, 10,000+ apps promoted for clients in 26 countries.",
+      "bullets": [
+        "Made **100% of payouts auditable** and screened out fraudulent completions by modeling the full task lifecycle behind an asynchronous moderation queue with anti-fraud rules, processing **hundreds of completions a day**.",
+        "Scaled the task-and-rewards platform to **1,000 daily active users in 3 months**, delivering resilient user workflows, automated re-engagement notifications, and real-time administrative verification queues."
+      ]
+    },
+    {
+      "company": "SODA",
+      "engagement": "",
+      "role": "Full-Stack Engineer",
+      "dates": "Aug 2022 – Oct 2023 · 1 yr 3 mos · Remote",
+      "blurb": "Lead-generation agency for residential developers and law firms (~60 employees). Owned client-server architecture, APIs, and infrastructure.",
+      "bullets": [
+        "Decomposed a legacy PHP monolith into containerized **Node.js/TypeScript microservices** (Express, PostgreSQL), migrating core business logic and establishing isolated services with automated deployments.",
+        "**Cut LLM API infrastructure costs 10×** by designing a confidence-based model cascade: a lightweight model processes routine requests and escalates to a heavy model only when confidence drops.",
+        "**Tripled monthly channel revenue from ~$47K to ~$141K** and slashed lead response time from ~8 min to **under 30 s** by delivering an automated AI processing assistant with real-time customer communication."
+      ]
+    }
+  ],
+  "oss": {
+    "text": "**vk-ai-bot-platform** (MIT) — multi-tenant AI chatbot platform: OpenRouter LLM API, token-aware context windows, multi-step re-engagement on BullMQ, event deduplication, PostgreSQL, Redis, Docker Compose, GitHub Actions.",
+    "href": "https://github.com/ishbnv/vk-ai-bot-platform"
+  },
+  "skills": [
+    [
+      "Cloud & Container Platforms",
+      "Kubernetes (production cluster operation), AWS (EC2, S3, VPC networking, security groups, deployment), Docker, Docker Compose, Linux (Ubuntu, Amazon Linux), containerization, high availability"
+    ],
+    [
+      "CI/CD & Observability",
+      "GitLab CI/CD, GitHub Actions, OpenTelemetry (distributed tracing), Grafana (alerting & dashboards), incident response, postmortems, log analysis, capacity planning"
+    ],
+    [
+      "Data & Event Streaming",
+      "Apache Kafka (event-driven architecture, high throughput, zero message loss), PostgreSQL (query & index tuning, performance profiling), Redis, BullMQ"
+    ],
+    [
+      "Backend & Systems",
+      "Node.js, TypeScript, NestJS, Express, Fastify, REST APIs, GraphQL, WebSocket, microservices decomposition, system design, network protocols, OWASP Top 10"
+    ],
+    [
+      "Automation & Tooling",
+      "Claude Code (project rules & automation), MCP (Model Context Protocol) custom servers, developer tooling, Git (workflows, code reviews), bash/shell scripting"
+    ]
+  ],
+  "education": [
+    "Southern Federal University — Applied Informatics, 2022–2024",
+    "English — professional working proficiency (daily in a distributed team) · Russian — native"
+  ]
+}

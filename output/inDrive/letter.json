@@ -1,0 +1,23 @@
+{
+  "name": "IVAN SHABANOV",
+  "line1": "ivan@ishbnv.dev · +374 77 719 518 · linkedin.com/in/ishbnv · github.com/ishbnv · ishbnv.dev",
+  "line2": "Yerevan, Armenia (GMT+4) · Remote · B2B contract or EOR · Full overlap with EU hours",
+  "date": "11 September 2026",
+  "to": [
+    "inDrive — Platform Engineering Team",
+    "Re: Infrastructure Engineer (The Platform)"
+  ],
+  "paragraphs": [
+    "Dear Hiring Team,",
+    "I am applying for the Infrastructure Engineer position on The Platform team at inDrive. My background is centered on building and operating dependable production systems across Linux, containerized workloads, Kubernetes, and automated CI/CD pipelines, with a practical focus on high availability, observability, and zero-loss event streaming under heavy traffic.",
+    "At Alfa-Dengi, our platform handles over 9,000 new incoming leads daily alongside bursty promotional traffic that historically caused notification drops and lag. To eliminate message loss, I moved our notification delivery and domain-event processing to Apache Kafka, establishing an asynchronous, replayable event backbone that held up under peak loads with zero drops. Alongside event streaming, I designed our deployment and observability stack: automated GitLab CI/CD deploying directly into a 5-node self-managed Kubernetes cluster, paired with OpenTelemetry distributed tracing and Grafana alerting. Having unified tracing and real-time dashboards allowed our team to spot database query regressions early, enabling us to cut lead-scoring table latencies from 8 seconds down to under 1 second.",
+    "Across earlier roles at SODA and Appbooster, I focused on service containerization and cloud reliability. At SODA, I decomposed a legacy PHP monolith into containerized Node.js microservices running on Linux with automated pipelines. At Appbooster, I modeled a high-volume task validation lifecycle behind asynchronous moderation queues with strict anti-fraud rules, processing hundreds of daily payouts with full auditability. On public clouds, I have hands-on experience provisioning and configuring production AWS EC2 servers, S3 storage, networking security groups, and deployment workflows.",
+    "My day-to-day tooling covers Linux (Ubuntu, Amazon Linux), Kubernetes, Docker, AWS, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana, and Apache Kafka. I care deeply about declarative infrastructure, reproducible deployments, and proactive incident response.",
+    "I work remotely from Yerevan, Armenia (GMT+4), providing full overlap with European and Latin American business handoffs, and I am set up for B2B contract or EOR engagement.",
+    "Given inDrive's global presence across 48 countries, where do your platform teams experience the greatest operational friction today: managing stateful data consistency across multi-cloud regions, or maintaining network latency during sudden ride-hailing traffic spikes?"
+  ],
+  "closing": [
+    "Kind regards,",
+    "Ivan Shabanov"
+  ]
+}
