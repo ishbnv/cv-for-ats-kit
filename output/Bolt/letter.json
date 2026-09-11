@@ -1,0 +1,23 @@
+{
+  "name": "IVAN SHABANOV",
+  "line1": "ivan@ishbnv.dev · +374 77 719 518 · linkedin.com/in/ishbnv · github.com/ishbnv · ishbnv.dev",
+  "line2": "Yerevan, Armenia (GMT+4) · Ready to relocate to Tallinn, Estonia · Remote until relocation, full EU overlap",
+  "date": "11 September 2026",
+  "to": [
+    "Bolt — Engineering Hiring Team",
+    "Re: Senior Backend Software Engineer (Tallinn, Estonia)"
+  ],
+  "paragraphs": [
+    "Dear Hiring Team,",
+    "I am applying for the Senior Backend Software Engineer position in Tallinn. With four years architecting distributed systems in Node.js and TypeScript, I build scalable backend services focused on high throughput, zero-loss asynchronous streaming, and database performance. Bolt's culture of using AI daily resonates strongly with me: I have spent two years embedding AI coding agents and custom MCP tooling directly into production team workflows.",
+    "At Alfa-Dengi, our platform processes 9,000 new incoming loan applications daily, where peak promotional traffic previously triggered notification drops and message delays. I resolved this by moving our notification delivery and domain-event architecture to Apache Kafka, establishing an asynchronous, replayable event backbone that eliminated message loss during traffic spikes. On the database tier, I diagnosed critical latency bottlenecks on a 100,000-row lead-scoring dataset: by profiling execution paths, implementing server-side pagination, and tuning PostgreSQL indexes, I cut query latencies from 8 seconds down to under 1 second. When we launched our credit-report product, I led a 3-engineer team from technical design to delivery over a 6-million-row scoring dataset, helping the product reach profitability within its first week and lifting net profit by 40%.",
+    "Alongside backend delivery, I brought modern AI practices into our team's daily routines. I authored our project rules for Claude Code, built custom MCP servers exposing internal database schemas and API contracts to agents, and established an agentic pre-review stage before pull requests reach human engineers. This systematic automation dropped our cycle time for shipping verified CRUD modules with automated tests from roughly two hours to about forty minutes, proving that disciplined AI tooling compounds team velocity without lowering engineering rigor.",
+    "My core backend stack centers on Node.js, TypeScript, NestJS, Express, PostgreSQL, Redis, Apache Kafka, Docker, Kubernetes, and AWS. I design clean microservices with explicit domain boundaries, strict API contracts, and robust automated test suites.",
+    "I am currently based in Yerevan, Armenia (GMT+4) and fully prepared to relocate to Tallinn for this hybrid role, while being ready to begin collaborating remotely under full European timezone overlap during the relocation transition.",
+    "As Bolt continues scaling microservices across rides, delivery, and car-sharing, where does your backend team see the biggest architectural challenge today: managing distributed state and pricing consensus during flash-demand spikes, or maintaining low-latency data replication across regional clusters?"
+  ],
+  "closing": [
+    "Kind regards,",
+    "Ivan Shabanov"
+  ]
+}
