@@ -1,0 +1,23 @@
+{
+  "name": "IVAN SHABANOV",
+  "line1": "ivan@ishbnv.dev · +374 77 719 518 · linkedin.com/in/ishbnv · github.com/ishbnv · ishbnv.dev",
+  "line2": "Yerevan, Armenia (GMT+4) · Local candidate (On-site / Hybrid in Yerevan)",
+  "date": "11 September 2026",
+  "to": [
+    "ServiceTitan — Engineering Hiring Team",
+    "Re: Senior Software Engineer (Yerevan, Armenia — JR114992)"
+  ],
+  "paragraphs": [
+    "Dear Hiring Team,",
+    "I am applying for the Senior Software Engineer position at ServiceTitan in Yerevan. As an engineer based locally in Yerevan, I design and ship user-facing products, scalable Web APIs, and high-performance relational database architectures, balancing direct technical execution with requirements slicing and team mentorship.",
+    "At Alfa-Dengi, I owned end-to-end feature delivery across both backend architectures and user interfaces. When our platform faced severe latency on a 100,000-row lead-scoring dataset under 9,000 new daily leads, I profiled execution plans, implemented server-side pagination, and restructured PostgreSQL indexes, dropping table query response times from 8 seconds down to under 1 second. When launching our credit-report product, I led a 3-engineer team through technical design, user flows, and Web API contracts over a 6-million-row dataset, turning the service profitable within its first week and lifting net profit by 40%. To empower non-technical marketers, I designed a visual drag-and-drop workflow canvas in React that automated multi-step notification campaigns, generating about $80K a month with zero ongoing engineering intervention.",
+    "I also place strong emphasis on mentorship and developer velocity. I authored project conventions for Claude Code, built custom MCP servers exposing internal database schemas to coding agents, and established an agentic pre-review stage before pull requests reach human review. This systematic approach reduced our cycle time for shipping verified modules from roughly two hours to about forty minutes, allowing senior engineers to spend more time on architectural design and mentoring.",
+    "My core engineering background spans Web APIs, relational databases, SQL optimization, React, TypeScript, Node.js, unit testing, and distributed architectures. While my primary production stack has been TypeScript and modern web architectures, I have deep fundamentals in object-oriented design, relational modeling, and API contracts, and I am eager to apply these principles within your high-scale platform.",
+    "Living in Yerevan, I am immediately available for on-site collaboration at your Yerevan office under flexible hybrid arrangements.",
+    "Given ServiceTitan's rapid growth empowering thousands of trade businesses, where do your product teams see the greatest architectural friction today: scaling relational query performance across multi-tenant databases, or simplifying complex workflow automation for end users?"
+  ],
+  "closing": [
+    "Kind regards,",
+    "Ivan Shabanov"
+  ]
+}

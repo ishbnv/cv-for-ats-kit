@@ -1,0 +1,103 @@
+{
+  "lang": "en",
+  "name": "Ivan Shabanov",
+  "title": "Senior Software Engineer",
+  "tail": "Full-Stack & Web APIs · Relational Databases & SQL · React & Architecture",
+  "location": "Yerevan, Armenia (GMT+4) · Local candidate (On-site / Hybrid in Yerevan)",
+  "contacts": [
+    {
+      "label": "ivan@ishbnv.dev",
+      "href": "mailto:ivan@ishbnv.dev"
+    },
+    {
+      "label": "+374 77 719 518",
+      "href": "tel:+37477719518"
+    },
+    {
+      "label": "linkedin.com/in/ishbnv",
+      "href": "https://www.linkedin.com/in/ishbnv"
+    },
+    {
+      "label": "github.com/ishbnv",
+      "href": "https://github.com/ishbnv"
+    },
+    {
+      "label": "ishbnv.dev",
+      "href": "https://ishbnv.dev"
+    }
+  ],
+  "summary": "Senior Software Engineer with 4+ years architecting and shipping user-facing web applications, scalable Web APIs, and high-load relational data services. Bridges end-to-end product delivery: designed and launched a credit-report product profitable in week one (+40% net profit, 6M-row dataset) leading a 3-engineer team, and built an automated drag-and-drop campaign canvas generating ~$80K/month. Deep expertise in SQL and relational database performance profiling (cut 100K-row table latencies from 8 s to under 1 s), React, and AI-assisted engineering workflows. Based locally in Yerevan.",
+  "jobs": [
+    {
+      "company": "Alfa-Dengi",
+      "engagement": "via GIDFINANCE",
+      "role": "Senior Full-Stack Engineer · Tech Lead",
+      "dates": "Sep 2024 – Present · 2 yrs · Remote",
+      "blurb": "Consumer-lending platform with 9K+ new leads a day. Cross-functional product team; contract engagement via GIDFINANCE.",
+      "bullets": [
+        "Launched a credit-report product that **turned profitable in its first week** (net profit **+40%**, EPC doubled from **~$1.9 to ~$3.8**) by leading a 3-engineer team through technical design, user flows, Web API contracts, and backend querying a **6M-row** scoring dataset.",
+        "Enabled marketers to launch automated multi-step campaigns **with zero engineering involvement** (**~$80K/month** generated) by designing and building a visual drag-and-drop campaign canvas on React with live validation and normalized state.",
+        "Cut query execution time on a 100K-row lead-scoring dataset (9K+ new leads/day) from **8 s to under 1 s** through deep database profiling, server-side pagination, and PostgreSQL query and index optimization.",
+        "**Eliminated notification loss** under peak traffic bursts by moving notification delivery and domain-event processing to **Apache Kafka**, establishing fault-tolerant, replayable event streaming.",
+        "Automated team delivery and DX: authored **project rules for Claude Code** (architecture conventions, guardrails) and built **custom MCP servers** exposing database schemas and documentation, cutting CRUD module delivery from **~2 h to ~40 min**."
+      ]
+    },
+    {
+      "company": "Appbooster",
+      "engagement": "",
+      "role": "Full-Stack Engineer (contract)",
+      "dates": "Nov 2023 – Aug 2024 · 10 mos · Remote",
+      "blurb": "Mobile-app marketing platform: ~100 employees, 10,000+ apps promoted for clients in 26 countries.",
+      "bullets": [
+        "Made **100% of payouts auditable** and screened out fraudulent completions by modeling the full task lifecycle behind an asynchronous moderation queue with anti-fraud rules, processing **hundreds of completions a day**.",
+        "Scaled the task-and-rewards platform to **1,000 daily active users in 3 months**, owning the full cycle: React user dashboard for paid tasks, re-engagement chatbot notifications, and admin verification queues."
+      ]
+    },
+    {
+      "company": "SODA",
+      "engagement": "",
+      "role": "Full-Stack Engineer",
+      "dates": "Aug 2022 – Oct 2023 · 1 yr 3 mos · Remote",
+      "blurb": "Lead-generation agency for residential developers and law firms (~60 employees). Owned client-server architecture, APIs, and databases.",
+      "bullets": [
+        "Decomposed a legacy PHP monolith into containerized **Node.js/TypeScript microservices** (Express, PostgreSQL), migrating core business logic and establishing isolated services and Web APIs.",
+        "**Tripled monthly channel revenue from ~$47K to ~$141K** and slashed lead response time from ~8 min to **under 30 s** by leading an automated AI processing assistant with real-time customer communication.",
+        "Lifted conversion **~1.5×** on high-traffic SPA web applications by raising Lighthouse Performance from **58 to 87** through Core Web Vitals optimization, asset loading, and layout stability."
+      ]
+    }
+  ],
+  "oss": {
+    "text": "**vk-ai-bot-platform** (MIT) — multi-tenant AI chatbot platform: OpenRouter LLM API, token-aware context windows, multi-step re-engagement on BullMQ, event deduplication, PostgreSQL, Redis, React, Docker Compose, GitHub Actions.",
+    "href": "https://github.com/ishbnv/vk-ai-bot-platform"
+  },
+  "skills": [
+    [
+      "Languages & Web Stack",
+      "TypeScript, JavaScript (ES6+), HTML5, CSS3, Node.js, SQL, React, Next.js, Redux Toolkit"
+    ],
+    [
+      "Architecture & Web APIs",
+      "REST Web APIs, Web API design, microservices architecture, GraphQL, WebSocket, distributed systems, system design, domain-driven design, OWASP Top 10"
+    ],
+    [
+      "Databases & Data Systems",
+      "Relational databases, SQL, PostgreSQL (query and index optimization, profiling, performance tuning), Redis, Apache Kafka, BullMQ"
+    ],
+    [
+      "Cloud, CI/CD & Tooling",
+      "Docker, Kubernetes, AWS, GitLab CI/CD, GitHub Actions, Git (code reviews, collaborative workflows), OpenTelemetry, Grafana, JIRA"
+    ],
+    [
+      "Process & Leadership",
+      "Technical mentorship, code review, requirements decomposition, unit testing (Jest, Vitest, Supertest), Playwright (E2E), Agile/Scrum, technical writing"
+    ],
+    [
+      "AI-Assisted Engineering",
+      "Claude Code (project conventions, guardrails), MCP (Model Context Protocol) custom servers, AI-assisted development workflows, model cascading"
+    ]
+  ],
+  "education": [
+    "Southern Federal University — Applied Informatics, 2022–2024",
+    "English — professional working proficiency (daily in a distributed team) · Russian — native"
+  ]
+}
