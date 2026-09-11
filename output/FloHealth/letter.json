@@ -1,0 +1,23 @@
+{
+  "name": "IVAN SHABANOV",
+  "line1": "ivan@ishbnv.dev · +374 77 719 518 · linkedin.com/in/ishbnv · github.com/ishbnv · ishbnv.dev",
+  "line2": "Yerevan, Armenia (GMT+4) · Ready to relocate to London, UK · Remote until relocation, full EU overlap",
+  "date": "11 September 2026",
+  "to": [
+    "Flo Health — AI Platform Hiring Team",
+    "Re: Senior AI/ML Engineer (London, UK)"
+  ],
+  "paragraphs": [
+    "Dear Hiring Team,",
+    "I am applying for the Senior AI Engineer position on the AI Platform team at Flo. Over the past three years, I have built and operated production LLM systems where end-user perception of latency, tone, and reliability directly impacted revenue and engagement. Flo's mission to deliver medically grounded, personalized GenAI features at an 80-million-user scale matches my experience designing model cascades, custom tool contracts, and automated notification workflows.",
+    "At SODA, I led the development of an automated AI lead-processing assistant where response time and answer quality were critical to user trust. To validate the system, I ran a three-month controlled test comparing human operators, human-plus-AI assistance, and an autonomous AI flow. The autonomous AI workflow consistently outperformed human baselines, slashing first-response latency from roughly eight minutes to under thirty seconds and tripling monthly channel revenue from about $47K to about $141K. To resolve the inference cost and latency trade-off, I designed and shipped a confidence-based model cascade: a fast, lightweight model handles routine inquiries, escalating to a heavy model only when certainty drops below threshold. This halved latency and cut LLM API expenditures tenfold without degrading answer quality.",
+    "At Alfa-Dengi, I bridged complex backend logic with intuitive user journeys. I built a visual drag-and-drop campaign canvas in React and NestJS that allowed non-technical marketers to construct multi-step automated notification workflows with frequency caps, generating about $80K a month. To accelerate team-wide engineering velocity, I authored project conventions for Claude Code, built custom MCP servers exposing database schemas and documentation to agents, and introduced an agentic pre-review stage that dropped CRUD delivery time from roughly two hours to about forty minutes.",
+    "My core engineering stack spans TypeScript, Node.js, React, REST and WebSocket APIs, PostgreSQL, Redis, Kafka, Docker, and AWS, and I am comfortable working with Python across LLM pipelines. I design for structured outputs, clear tool schemas, and systematic evaluation against ground truth.",
+    "I am currently based in Yerevan, Armenia (GMT+4) and fully prepared to relocate to London for this hybrid role, while ready to begin collaborating remotely under full UK timezone overlap during the visa and onboarding process.",
+    "With Flo serving millions of active users daily, where does the AI Platform team encounter the sharpest trade-off today: maintaining sub-second streaming latency during peak morning engagement, or calibrating clinical safety evaluation gates across personalized user journeys?"
+  ],
+  "closing": [
+    "Kind regards,",
+    "Ivan Shabanov"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "lang": "en",
+  "name": "Ivan Shabanov",
+  "title": "Senior AI Engineer",
+  "tail": "LLM Systems, AI Agents, MCP · TypeScript / Node.js · Product Engineering",
+  "location": "Yerevan, Armenia (GMT+4) · Ready to relocate to London, UK · Remote until relocation, full EU overlap",
+  "contacts": [
+    {
+      "label": "ivan@ishbnv.dev",
+      "href": "mailto:ivan@ishbnv.dev"
+    },
+    {
+      "label": "+374 77 719 518",
+      "href": "tel:+37477719518"
+    },
+    {
+      "label": "linkedin.com/in/ishbnv",
+      "href": "https://www.linkedin.com/in/ishbnv"
+    },
+    {
+      "label": "github.com/ishbnv",
+      "href": "https://github.com/ishbnv"
+    },
+    {
+      "label": "ishbnv.dev",
+      "href": "https://ishbnv.dev"
+    }
+  ],
+  "summary": "AI Engineer with 4+ years of production software engineering and 3 years shipping LLM systems: an automated AI assistant that tripled monthly channel revenue to ~$141K, a confidence-based model cascade that cut LLM API costs 10×, and custom MCP servers adopted across an engineering team. Combines product sensibility with systems execution: prompt and tool contract design, latency and cost optimization, structured outputs, evaluation against human baselines, and integration into high-load applications. Ready to relocate to London.",
+  "jobs": [
+    {
+      "company": "Alfa-Dengi",
+      "engagement": "via GIDFINANCE",
+      "role": "Senior Full-Stack Engineer · Tech Lead",
+      "dates": "Sep 2024 – Present · 2 yrs · Remote",
+      "blurb": "Consumer-lending marketplace with 9K+ new leads a day. Cross-functional product team; contract engagement via GIDFINANCE.",
+      "bullets": [
+        "Introduced AI-agent workflows across the team: authored **project rules for Claude Code** (architectural guardrails, conventions), built **custom MCP servers** exposing database schemas and documentation to agents, and added an agentic pre-review stage; typical module delivery dropped from **~2 h to ~40 min**.",
+        "Enabled marketers to launch automated push campaigns **with zero engineering involvement** (**~$80K/month** generated) by building a visual drag-and-drop campaign canvas on React and NestJS with normalized state and per-status frequency caps.",
+        "Launched a credit-report product that **turned profitable in its first week** (net profit **+40%**, EPC doubled from **~$1.9 to ~$3.8**) by leading a 3-engineer team through technical design, user flows, API contracts, and a Node.js backend querying a **6M-row** scoring dataset.",
+        "**Eliminated notification loss** under peak traffic bursts by moving notification delivery and domain-event processing to **Apache Kafka**, establishing reliable, replayable event streaming.",
+        "Cut load time of a 100K-row lead-scoring table (9K+ new leads/day) from **8 s to under 1 s** by reworking the data-access path: server-side pagination, PostgreSQL query and index optimisation, and client-side list virtualization."
+      ]
+    },
+    {
+      "company": "Appbooster",
+      "engagement": "",
+      "role": "Full-Stack Engineer (contract)",
+      "dates": "Nov 2023 – Aug 2024 · 10 mos · Remote",
+      "blurb": "Mobile-app marketing platform: ~100 employees, 10,000+ apps promoted for clients in 26 countries.",
+      "bullets": [
+        "Grew the task-and-rewards product to **1,000 daily active users in 3 months** by owning the full cycle: React user dashboard for paid tasks and proof submission, chatbot re-engagement notifications, and a live verification queue for admins.",
+        "Made **100% of payouts auditable** and screened out duplicate and faked proofs by modelling the full task lifecycle from pick-up to payout behind a moderation queue with anti-fraud rules, processing **hundreds of completions a day**."
+      ]
+    },
+    {
+      "company": "SODA",
+      "engagement": "",
+      "role": "Full-Stack Engineer",
+      "dates": "Aug 2022 – Oct 2023 · 1 yr 3 mos · Remote",
+      "blurb": "Lead-generation agency for residential developers and law firms (~60 employees). Owned the client-server side: APIs, database, interfaces.",
+      "bullets": [
+        "**Tripled monthly channel revenue from ~$47K to ~$141K** and cut lead response time from ~8 min to **under 30 s** by leading an AI lead-processing assistant across a 3-month controlled comparison (humans / humans + AI / AI only) that moved the channel fully to AI.",
+        "**Cut LLM API costs 10×** on own initiative by prototyping and shipping a model cascade: a fast, cheap model handles routine leads and escalates to a stronger model only on low confidence.",
+        "Lifted conversion **~1.5×** on SPA sites receiving paid ad traffic by raising Lighthouse Performance from **58 to 87** through Core Web Vitals work, asset loading, and layout stability."
+      ]
+    }
+  ],
+  "oss": {
+    "text": "**vk-ai-bot-platform** (MIT) — multi-tenant AI chatbot platform: OpenRouter LLM API, per-community prompt versioning, token-aware context windows, multi-step re-engagement workflows on BullMQ, event deduplication, admin analytics. TypeScript, Fastify, Drizzle ORM, PostgreSQL, Redis, React, Docker Compose, GitHub Actions.",
+    "href": "https://github.com/ishbnv/vk-ai-bot-platform"
+  },
+  "skills": [
+    [
+      "AI Engineering & LLM Systems",
+      "LLM integration (Anthropic API, OpenAI API, OpenRouter), AI agents, agentic workflows, MCP (Model Context Protocol) custom servers, prompt engineering, structured outputs, model cascading and routing, cost/latency optimisation, LLM evaluation against baselines, Claude Code"
+    ],
+    [
+      "Languages & Stack",
+      "TypeScript, JavaScript (ES6+), Node.js, SQL, ready to work with Python in project stack"
+    ],
+    [
+      "Backend & APIs",
+      "NestJS, Express, Fastify, REST APIs, GraphQL, WebSocket, microservices architecture, system design, Apache Kafka, BullMQ, OWASP Top 10"
+    ],
+    [
+      "Frontend & Product UX",
+      "React, Next.js, Redux Toolkit, visual workflow builders, Core Web Vitals, Lighthouse, interaction design, accessibility"
+    ],
+    [
+      "Data & Infrastructure",
+      "PostgreSQL, Redis, Docker, Kubernetes, AWS (EC2, S3, networking, deploy), GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana"
+    ],
+    [
+      "Testing & Process",
+      "Vitest, Jest, Supertest, Playwright (E2E), A/B testing, code review, technical documentation, mentoring"
+    ]
+  ],
+  "education": [
+    "Southern Federal University — Applied Informatics, 2022–2024",
+    "English — professional working proficiency (daily in a distributed team) · Russian — native"
+  ]
+}
