@@ -1,0 +1,23 @@
+{
+  "name": "IVAN SHABANOV",
+  "line1": "ivan@ishbnv.dev · +374 77 719 518 · linkedin.com/in/ishbnv · github.com/ishbnv · ishbnv.dev",
+  "line2": "Yerevan, Armenia (GMT+4) · Ready to relocate to Limassol, Cyprus · Remote until relocation, full EU overlap",
+  "date": "11 September 2026",
+  "to": [
+    "TradingView — Frontend Engineering Team",
+    "Re: Senior Frontend Developer (Limassol / Paphos, Cyprus)"
+  ],
+  "paragraphs": [
+    "Dear Hiring Team,",
+    "I am applying for the Senior Frontend Developer position at TradingView. With four years architecting high-performance React and TypeScript applications, I focus on solving the hardest challenges in frontend engineering: data-intensive interfaces, re-render control, complex state management, and real-time streaming data. TradingView sets the global benchmark for financial visualization, and I would love to bring my experience in UI performance and architecture to your product team in Cyprus.",
+    "At Alfa-Dengi, I tackled two major frontend architecture challenges. First, our platform experienced severe UI freezing when rendering a 100,000-row lead-scoring dataset with live filters under 9,000 new daily leads. By profiling execution cycles, implementing client-side list virtualization to keep only visible rows in the DOM, and restructuring data paths, I reduced table latency from 8 seconds down to under 1 second. Second, to empower non-technical marketers, I designed and shipped a visual drag-and-drop campaign canvas in React and NestJS. I structured the document model around a normalized Redux Toolkit store with immutable state updates, live graph validation, and per-status frequency limits. The canvas allowed marketers to launch automated multi-step notification campaigns with zero developer involvement, generating about $80K a month.",
+    "Across earlier roles at SODA and Appbooster, I concentrated on responsive user journeys and frontend efficiency. At SODA, I raised Lighthouse Performance on high-traffic SPA web applications from 58 to 87 through Core Web Vitals optimization, asset preloading, and layout stability, lifting conversion by roughly 1.5 times. At Appbooster, I built the React user dashboard for a paid task platform, scaling it to 1,000 daily active users in three months with optimistic UI updates and real-time verification queues.",
+    "My everyday frontend stack centers on React, TypeScript, Next.js, Redux Toolkit, modern CSS, Vite, WebSocket, and Jest or Vitest. I care deeply about component ergonomics, translating Figma designs into clean design systems, and building fast developer workflows using Claude Code and custom MCP servers.",
+    "I am currently based in Yerevan, Armenia (GMT+4) and fully prepared to relocate to Limassol or Paphos for this role, while being ready to begin collaborating remotely under full timezone alignment during the relocation process.",
+    "Given TradingView's rich interactive charting, how does your frontend team structure state synchronization between low-level Canvas and WebGL rendering engines and the surrounding React DOM UI layer during rapid market tick updates?"
+  ],
+  "closing": [
+    "Kind regards,",
+    "Ivan Shabanov"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "lang": "en",
+  "name": "Ivan Shabanov",
+  "title": "Senior Frontend Developer",
+  "tail": "React / TypeScript · Performance Optimization · Complex State & Real-Time UI",
+  "location": "Yerevan, Armenia (GMT+4) · Ready to relocate to Limassol, Cyprus · Remote until relocation, full EU overlap",
+  "contacts": [
+    {
+      "label": "ivan@ishbnv.dev",
+      "href": "mailto:ivan@ishbnv.dev"
+    },
+    {
+      "label": "+374 77 719 518",
+      "href": "tel:+37477719518"
+    },
+    {
+      "label": "linkedin.com/in/ishbnv",
+      "href": "https://www.linkedin.com/in/ishbnv"
+    },
+    {
+      "label": "github.com/ishbnv",
+      "href": "https://github.com/ishbnv"
+    },
+    {
+      "label": "ishbnv.dev",
+      "href": "https://ishbnv.dev"
+    }
+  ],
+  "summary": "Senior Frontend Developer with 4+ years building production React/TypeScript web applications, data-intensive interfaces, and high-performance UI architectures. Specializes in frontend performance and complex state: cut load time on a 100K-row dataset from 8 s to under 1 s via client virtualization and re-render control, raised Lighthouse Performance from 58 to 87 (+50% conversion), and designed a drag-and-drop visual canvas generating ~$80K/month. Deep expertise in normalized state, WebSocket real-time updates, component design systems from Figma, and AI-native developer tooling. Ready to relocate to Cyprus.",
+  "jobs": [
+    {
+      "company": "Alfa-Dengi",
+      "engagement": "via GIDFINANCE",
+      "role": "Senior Full-Stack Engineer · Tech Lead",
+      "dates": "Sep 2024 – Present · 2 yrs · Remote",
+      "blurb": "Consumer-lending marketplace with 9K+ new leads a day. Cross-functional product team; contract engagement via GIDFINANCE.",
+      "bullets": [
+        "Enabled marketers to launch automated multi-step campaigns **with zero engineering involvement** (**~$80K/month** generated) by designing and shipping a visual drag-and-drop campaign canvas on React and NestJS with normalized Redux Toolkit state, live validation, and per-status frequency caps.",
+        "Cut load time of a 100K-row lead-scoring table (9K+ new leads/day) from **8 s to under 1 s** by reworking the data-access path: client-side list virtualization, server-side pagination, and PostgreSQL query and index optimisation.",
+        "Delivered real-time status and notification updates directly to the React UI over **WebSocket** backed by **Apache Kafka** domain events, eliminating message loss under peak traffic bursts.",
+        "Launched a credit-report product that **turned profitable in its first week** (net profit **+40%**, EPC doubled from **~$1.9 to ~$3.8**) by leading a 3-engineer team through user flows, technical design, Web API contracts, and responsive UI delivery.",
+        "Made AI coding agents a team-level capability: wrote **project rules for Claude Code** (architecture conventions, style guardrails) and built **custom MCP servers** exposing schemas and documentation, cutting CRUD module delivery from **~2 h to ~40 min**."
+      ]
+    },
+    {
+      "company": "Appbooster",
+      "engagement": "",
+      "role": "Full-Stack Engineer (contract)",
+      "dates": "Nov 2023 – Aug 2024 · 10 mos · Remote",
+      "blurb": "Mobile-app marketing platform: ~100 employees, 10,000+ apps promoted for clients in 26 countries.",
+      "bullets": [
+        "Grew the task-and-rewards product to **1,000 daily active users in 3 months** by owning the full frontend cycle: React user dashboard with optimistic updates for paid tasks and proof submission, chatbot re-engagement notifications, and an admin verification queue.",
+        "Made **100% of payouts auditable** and screened out duplicate and faked proofs by modelling the full task lifecycle from pick-up to payout behind a moderation queue with anti-fraud rules, processing **hundreds of completions a day**."
+      ]
+    },
+    {
+      "company": "SODA",
+      "engagement": "",
+      "role": "Full-Stack Engineer",
+      "dates": "Aug 2022 – Oct 2023 · 1 yr 3 mos · Remote",
+      "blurb": "Lead-generation agency for residential developers and law firms (~60 employees). Owned the client-server side: APIs, database, interfaces.",
+      "bullets": [
+        "Lifted conversion **~1.5×** on high-traffic SPA web applications by raising Lighthouse Performance from **58 to 87** through Core Web Vitals work, asset loading, layout stability, and re-render profiling.",
+        "**Tripled monthly channel revenue from ~$47K to ~$141K** and cut lead response time from ~8 min to **under 30 s** by leading an AI lead-processing assistant across a 3-month controlled trial with a real-time chat interface.",
+        "Built an internal **React integration hub** linking the agency's CRM with external partner CRM systems, managing API contracts, data mappings, and bidirectional synchronization across distributed endpoints."
+      ]
+    }
+  ],
+  "oss": {
+    "text": "**vk-ai-bot-platform** (MIT) — multi-tenant AI chatbot platform: OpenRouter LLM API, per-community prompt versioning, token-aware context windows, multi-step re-engagement workflows on BullMQ, event deduplication, admin analytics. TypeScript, Fastify, Drizzle ORM, PostgreSQL, Redis, React, Docker Compose, GitHub Actions.",
+    "href": "https://github.com/ishbnv/vk-ai-bot-platform"
+  },
+  "skills": [
+    [
+      "Frontend Architecture & Core",
+      "React, TypeScript, JavaScript (ES6+), Next.js, Redux Toolkit, state management (normalized state, optimistic updates), component architecture, reusable UI components"
+    ],
+    [
+      "Performance & Real-Time",
+      "Frontend performance optimization, list virtualization and windowing, re-render control, bundle size optimization, Core Web Vitals, Lighthouse, WebSocket (real-time UI)"
+    ],
+    [
+      "Design Systems & UI/UX",
+      "Figma to code, design systems, UI components, interaction design, visual workflow canvases, responsive layout, modern CSS, accessibility (a11y)"
+    ],
+    [
+      "Backend & Data",
+      "Node.js, NestJS, Express, REST APIs, GraphQL, PostgreSQL (query and index optimization), Redis, Apache Kafka, BullMQ"
+    ],
+    [
+      "DevOps & AI Tooling",
+      "Vite, Webpack, Docker, Kubernetes, AWS, GitLab CI/CD, GitHub Actions, Claude Code, MCP (Model Context Protocol) custom servers"
+    ],
+    [
+      "Testing & Process",
+      "Vitest, Jest, Playwright (E2E), code review, Agile/Scrum, technical documentation, mentoring"
+    ]
+  ],
+  "education": [
+    "Southern Federal University — Applied Informatics, 2022–2024",
+    "English — professional working proficiency (daily in a distributed team) · Russian — native"
+  ]
+}
