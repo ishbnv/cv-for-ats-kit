@@ -1,0 +1,23 @@
+{
+  "name": "IVAN SHABANOV",
+  "line1": "ivan@ishbnv.dev · +374 77 719 518 · linkedin.com/in/ishbnv · github.com/ishbnv · ishbnv.dev",
+  "line2": "Yerevan, Armenia (GMT+4) · Remote · B2B contract or EOR · Full overlap with EU hours",
+  "date": "11 September 2026",
+  "to": [
+    "CoinsPaid Dev — Processing Engineering Team",
+    "Re: Senior Frontend Engineer (Remote — European Region)"
+  ],
+  "paragraphs": [
+    "Dear Hiring Team,",
+    "I am applying for the Senior Frontend Engineer role on the Processing Engineering team at CoinsPaid Dev. Over the past four years, I have engineered production React and TypeScript applications specifically within high-volume fintech environments, mastering the Redux Toolkit ecosystem, complex state machines, real-time streaming, and performance optimization for critical transactional interfaces. CoinsPaid Dev's focus on engineering discipline, security, and developer ownership aligns directly with how I build software.",
+    "At Alfa-Dengi, a consumer-lending platform processing over 9,000 new leads daily, I solved two demanding frontend challenges. First, our platform required a visual status-driven campaign builder that allowed non-technical marketers to construct multi-step branching workflows with live frequency caps. I designed and shipped this canvas in React and NestJS on top of a normalized Redux Toolkit store, implementing immutable slice updates, graph validation, and undo-redo history. The tool runs in production with zero engineering support tickets and generates about $80K a month. Second, to eliminate severe freezing on our 100,000-row lead-scoring dataset, I reworked the frontend data path: by introducing client-side list virtualization, server-side pagination, and tuning PostgreSQL indexes, I dropped query and render latency from 8 seconds down to under 1 second.",
+    "Security and software quality are fundamental to my day-to-day work. When launching our credit-report product, I led a 3-engineer team through technical design, user flows, and Web API contracts over a 6-million-row dataset, turning the service profitable within its first week (+40% net profit). Across all user-facing surfaces, I follow OWASP Top 10 security standards, enforce strict input validation, prevent XSS vulnerabilities, and write comprehensive unit and component test suites using Vitest, Jest, and React Testing Library.",
+    "My core engineering stack is React 18+, TypeScript 5+, Redux Toolkit, modern CSS, Material UI, Vite, WebSocket, and Node.js. To accelerate engineering cycles, I also author project rules for Claude Code and build custom MCP servers, dropping delivery time for verified modules from roughly two hours to about forty minutes.",
+    "I work remotely from Yerevan, Armenia (GMT+4), providing full overlap with European working hours under flexible B2B contract or EOR engagement, and I am fluent in both Russian and English.",
+    "Given Coinspaid's processing across 20+ blockchain networks, where does your frontend team focus most when handling high-concurrency transactional interfaces: optimizing state machines for multi-stage payment confirmation flows, or ensuring sub-second UI responsiveness during market volatility spikes?"
+  ],
+  "closing": [
+    "Kind regards,",
+    "Ivan Shabanov"
+  ]
+}
